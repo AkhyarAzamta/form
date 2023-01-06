@@ -13,7 +13,6 @@
   --primary: #9080d5;
 }
 h1 {
-  background-color: #ced4da;
   margin-bottom: 1em;
   font-size: 25px;
   text-align: start;
@@ -22,15 +21,18 @@ section {
   text-align: center;
   /* border: 1px solid #ced4da; */
   border-radius: 1em;
-  margin: 50% 120px;
-  padding: 0.5em;
+  margin: auto;
+  margin-top: 5em;
+  padding: 2rem;
+  width: 30rem;
 }
 
-form, p {
-  align-items: center;
+form, p, span {
+  /* align-items: center; */
   text-align: start;
   line-height: 1.5;
-  color: rgb(22, 12, 12);
+  color: rgb(105, 100, 100);
+  margin: auto;
 }
 
 .form-control:focus{
@@ -50,4 +52,39 @@ form, p {
   border: 1px solid #ced4da;
   padding: 0.375rem 0.75rem;
   margin-top: 1em;
+  width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(52, 91, 219);
+}
+.forgot {
+  text-align: end;
+  align-items: flex-end;
+}
+
+input[type="submit" i] {
+  text-align: center;
+  background-color: rgb(83, 162, 236);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 12px 11em;
+  border-radius: 0.8em;
+  border: 2px solid;
+}
+
+.regist {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.logo1 {
+  width: 40px;
+  margin-bottom: 1em;
+}
+
+figure {
+  text-align: start;
 }
