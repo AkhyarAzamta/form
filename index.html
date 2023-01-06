@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <link rel="stylesheet" href="./src/styles/styles.css" />
-    <link rel="shortcut icon" href="./public/favicon.svg" type="image/x-icon" />
-  </head>
-  <body>
-    <header class="header">
-      <figure class="header-figure-wrap">
-        <img class="header-logo" src="./src/assets/logo/Logo.svg" alt="Logo" />
-        <figcaption class="header-figcaption">Covid Tracker</figcaption>
-      </figure>
-      <nav class="header-nav-wrap">
-        <a class="header-nav-link">Home</a>
-        <a class="header-nav-link">About</a>
-        <a class="header-nav-link">Contact</a>
-      </nav>
-      <nav class="header-button-wrap">
-        <button class="header-button">Contact Us</button>
-        <button class="header-button black">Consult with Us</button>
-      </nav>
-      <img
-        class="header-hamburger"
-        src="./src/assets/icons/Menu.svg"
-        alt="Menu"
-      />
-    </header>
-    <script src="./src/libs/app.js" type="module"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <title>Login - Page</title>
+</head>
+<body>
+<main>
+    <section> 
+        <h1>Selamat Datang Kembali</h1>
+        <p>Silahkan masuk dengan akun mu</p>
+        <form action="#" method="get">
+            <label for="uname">Email <font color="red">*</font>
+            </label>
+            <input type="text" class="form-control" id="uname" name="uname" placeholder="akhyar.azamta@gmail.com"><br><br>
+            <label for="passwd">Kata sandi <font color="red">*</font></label>
+            <input type="password" class="form-control" id="passwd" name="passwd" placeholder="Masukan kata sandi anda"><br><br>
+            <input type="submit" value="Login">
+            <a href="#">Register</a>
+        </form>
+    </section>
+</main>
+    
+</body>
 </html>
