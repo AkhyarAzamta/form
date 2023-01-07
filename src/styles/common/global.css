@@ -14,7 +14,7 @@
 }
 main {
 background-color: #9080d5;
-padding: 50px 60px;
+margin: auto;
 
 }
 h1 {
@@ -28,8 +28,8 @@ section {
   border-radius: 1em;
   margin: auto;
   margin-top: 5em;
-  padding: 2rem;
-  width: 30rem;
+  padding: 1rem;
+  width: 20em;
 }
 
 form, p, span {
